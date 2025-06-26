@@ -1,20 +1,44 @@
-import React from 'react'
-import "./navbar.css"
+
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
+import Navbar from '../../components/Navbar/Navbar';
+import Home from './Home.jsx'
+import Packages from "./Packages.jsx";
+import About from "./About.jsx";
+import Contact from "./Contact.jsx";
 
 
-const Navbar = () => {
+
+import'./Nav.css'
+
+
+
+function Naveb(id="j") {
   return (
+
     <>
-        <div class="header">
-        <div className='tour'> <i class="ri-road-map-line"></i> easyTour</div>
-        <div class="child1"><a>Home</a></div>
-        <div class="child1"><a>Packages</a></div>
-        <div class="child1"><a>About Us</a></div>
-        <div class="child1"><a>Contact Us</a></div>
-        <div class="child1"><a>Login</a></div>
-    </div>
-    </>
-  )
+       <BrowserRoute >
+
 }
 
-export default Navbar
+<Routes >  
+
+<Route path="/Home" element={<Home />} /> 
+<Route path="/Packages" element={<Packages />} /> 
+ <Route path="/About" element={<About />} /> 
+  <Route path="/Contact" element={<Contact />} /> 
+ 
+
+
+       
+
+</Routes>
+
+      </BrowserRoute>
+     
+      
+    </>
+  );
+}
+
+export default Navbar;

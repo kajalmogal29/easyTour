@@ -1,6 +1,6 @@
 import React from 'react';
 import './Signin.css'; 
-import '@fortawesome/fontawesome-free/css/all.min.css'; // Font Awesome
+
 
 const Signin = () => {
   return (

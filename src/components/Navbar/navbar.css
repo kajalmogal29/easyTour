@@ -6,7 +6,7 @@
 .header{
     width: 100%;
     height: 67px;
-    background-color:#031e5e;
+    background-color:#195e8c ;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -14,9 +14,10 @@
     position: fixed;
 }
 
-.child1 a{
+.child1 a {
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 
 .ri-road-map-line{
