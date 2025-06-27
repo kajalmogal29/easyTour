@@ -6,7 +6,7 @@ import About from './views/About/About.jsx'
 import Signin from './views/Signin/Signin.jsx'
 import Signup from "./views/signup/Signup.jsx";
 import Contact from './views/Contact/Contact.jsx'
-import ForgotPassword from './Signin/ForgotPassword';
+//import ForgotPassword from './Signin/ForgotPassword';
 
 
 const App = () => {

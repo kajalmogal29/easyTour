@@ -24,6 +24,7 @@
 .heading{
   font-size: 2rem;
   margin-top: 1rem;
+  color: #195e8c;
 }
 
 .contact-content
@@ -66,7 +67,8 @@
   border-radius: 10px;
   box-shadow: 4px 4px 4px gray;
   font-size: 18px;
-  gap:12px
+  gap:12px;
+  color: white;
 }
 
 .contact-information h2{

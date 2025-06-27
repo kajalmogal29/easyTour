@@ -2,7 +2,7 @@ import React from 'react';
 import './Signin.css'; 
 
 import { Link } from 'react-router-dom';
-import '@fortawesome/fontawesome-free/css/all.min.css'; // Font Awesome
+//import '@fortawesome/fontawesome-free/css/all.min.css'; // Font Awesome
 
 
 const Signin = () => {
