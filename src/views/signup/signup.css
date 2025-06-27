@@ -58,7 +58,24 @@ body {
   justify-content: center;
   position: relative;
 }
+.exit-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #195e8c;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
+.exit-btn:hover {
+  background-color: #143f5c;
+  transform: scale(1.05);
+}
 .form-header {
   margin-bottom: 20px;
 }
@@ -98,7 +115,7 @@ body {
 }
 
 button {
-  background-color: #195e8c;
+  background-color: #0b4a74;
   color: white;
   padding: 12px;
   border: none;
