@@ -12,9 +12,6 @@ import Contact from './views/Contact/Contact.jsx'
 const App = () => {
   return (
     <>
-     <Navbar/>
-     <Home/>
-     <About/> 
       <BrowserRouter>
         <Routes>
         <Route path='/' element={<Home/>} />
