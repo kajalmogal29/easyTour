@@ -20,6 +20,9 @@ const Signup = () => {
     setPassword('');
     navigate('/signin'); // redirect to signin page
   };
+  const handleExit = () => {
+    navigate('/');
+  };
 
   return (
     <div className="container">
@@ -29,6 +32,7 @@ const Signup = () => {
         </div>
       </div>
       <div className="right">
+         <button onClick={handleExit} className="exit-btn">Exit</button>
         <div className="form-header">
           <p className="already-member">
             Already a member? <Link to="/signin">Sign in</Link>
