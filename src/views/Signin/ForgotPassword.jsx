@@ -1,8 +1,15 @@
-import React  from 'react';
+
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Signin.css';
-
 const ForgotPassword = () => {
+  const [email, setEmail] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert(`Password reset link sent to ${email}`);
+    setEmail('');
+  };
 
   return (
     <div className="container">
@@ -14,13 +21,14 @@ const ForgotPassword = () => {
       <div className="right-panel">
         <h1><span>Forgot Password</span></h1>
 
-        <form >
+        <form onSubmit={handleSubmit}>
           <div className="input-group">
             <input
               type="email"
               placeholder="Enter your email"
               required
-             
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
             <i className="fas fa-envelope icon"></i>
           </div>
