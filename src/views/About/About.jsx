@@ -4,9 +4,11 @@ import img1 from "../../assets/pic1.jpeg"
 import img2 from "../../assets/pic2.jpeg"
 import img3 from "../../assets/pic3.jpeg"
 import img4 from "../../assets/pic4.jpeg"
+// import { useState } from 'react'
 
 const About = () => {
-  return (
+ 
+   return (
     <>
     <div className="home-container">
       <div className="top-section">
@@ -77,13 +79,12 @@ const About = () => {
             <p>We are a Team of passionate travel & technology 
             experts dedicated to revolutionizing the tourism 
             industries.</p>
-            <p>We believe in providing innovative solutions 
-            that empower businesses to thrive. </p>
+            
             
           </div>
           <div className="middle-part">
           <div className="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609897945!2d72.7410997620409!3d19.082197839933396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63b2ddffb1d%3A0xf1c4a9aee0e4f9f7!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1687144879323!5m2!1sen!2sin" width="500" height="100%"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609897945!2d72.7410997620409!3d19.082197839933396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63b2ddffb1d%3A0xf1c4a9aee0e4f9f7!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1687144879323!5m2!1sen!2sin" width="450" height="100%"></iframe>
         </div>
         <div className="location-pannel">
           <div className="title"><i class="ri-plane-fill"></i> Knoor Travel Agency <i class="ri-plane-fill"></i></div>

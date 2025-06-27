@@ -8,9 +8,14 @@ import Signup from "./views/signup/Signup.jsx";
 import Contact from './views/Contact/Contact.jsx'
 import ForgotPassword from './Signin/ForgotPassword';
 
+const App = () => {
+    return (
+function App() {
+  const [count, setCount] = useState(0)
 
 const App = () => {
   return (
+
     <>
       <BrowserRouter>
         <Routes>
