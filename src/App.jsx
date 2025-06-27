@@ -6,17 +6,11 @@ import About from './views/About/About.jsx'
 import Signin from './views/Signin/Signin.jsx'
 import Signup from "./views/signup/Signup.jsx";
 import Contact from './views/Contact/Contact.jsx'
+import ForgotPassword from './views/Signin/ForgotPassword'
 
-
-
-const App = () => {
-    return (
-function App() {
-  const [count, setCount] = useState(0)
 
 const App = () => {
   return (
-
     <>
       <BrowserRouter>
         <Routes>
@@ -25,7 +19,7 @@ const App = () => {
         <Route path='/Contact' element={<Contact/>} />
         <Route path='/Signin' element={<Signin/>} />
         <Route path='/Signup' element={<Signup/>} />
-        
+      <Route path="/forgot-password" element={<ForgotPassword />} />
       </Routes>
       </BrowserRouter>
     </>
