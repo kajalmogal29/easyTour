@@ -4,10 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import About from './views/About/About.jsx'
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+const App = () => {
+    return (
     <>
      <About/> 
       
