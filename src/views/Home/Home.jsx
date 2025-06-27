@@ -7,14 +7,16 @@ import img1 from '../../assets/img1.jpg'
 const Home = () => {
   return (
     <>
+    <div>
     <Navbar/>
     <div className='main-container'>
      <img src={img1}></img>
     </div>
-
-    <div className='sub-container'>
-
-    </div>
+    
+   <div className='sub-container'>
+    <h1><i class="ri-red-packet-line"></i>OUR PACKAGES</h1>
+   </div>
+   </div>
     </>
   )
 }

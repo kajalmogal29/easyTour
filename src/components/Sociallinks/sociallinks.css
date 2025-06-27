@@ -1,0 +1,22 @@
+.social-links{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    text-decoration: none;
+   
+}
+
+.social-links a{
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.social-links a:hover{
+    color: blue;
+    transition: 0.3s ease-in-out;
+}
+

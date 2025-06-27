@@ -1,30 +1,29 @@
-<<<<<<< HEAD
 import React from 'react'
-import "./app.css"
-import Navbar from "./components/Navbar/Navbar"
-import Home from "./views/Home/Home"
-=======
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css"
+import { BrowserRouter , Routes, Route  } from 'react-router-dom'
+import Home from './views/Home/Home.jsx'
 import About from './views/About/About.jsx'
+import Signin from './views/Signin/Signin.jsx'
+import Signup from './views/Signup/Signup.jsx'
+import Contact from './views/Contact/Contact.jsx'
 
-function App() {
-  const [count, setCount] = useState(0)
->>>>>>> 4b3374b7c48d061ea86276164c54747aec49d127
+
 
 const App = () => {
   return (
     <>
-<<<<<<< HEAD
      <Navbar/>
      <Home/>
-=======
      <About/> 
-   
-      
->>>>>>> 4b3374b7c48d061ea86276164c54747aec49d127
+      <BrowserRouter>
+        <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/About' element={<About/>} />
+        <Route path='/Contact' element={<Contact/>} />
+        <Route path='/Signin' element={<Signin/>} />
+        <Route path='/Signup' element={<Signup/>} />
+      </Routes>
+      </BrowserRouter>
     </>
   )
 }
