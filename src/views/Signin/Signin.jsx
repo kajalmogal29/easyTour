@@ -25,7 +25,8 @@ const Signin = () => {
             <input type="password" placeholder="Password" required />
             <i className="fas fa-eye-slash icon"></i>
           </div>
-          <a href="#" className="forgot">Forgot Your Password?</a>
+               <Link to="/forgot-password" className="forgot">Forgot Your Password?</Link>
+
           <button type="submit" className="btn">ENTER</button>
         </form>
 
