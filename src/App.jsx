@@ -4,9 +4,9 @@ import { BrowserRouter , Routes, Route  } from 'react-router-dom'
 import Home from './views/Home/Home.jsx'
 import About from './views/About/About.jsx'
 import Signin from './views/Signin/Signin.jsx'
-import Signup from './views/Signup/Signup.jsx'
+import Signup from "./views/signup/Signup.jsx";
 import Contact from './views/Contact/Contact.jsx'
-
+import ForgotPassword from './Signin/ForgotPassword';
 
 
 const App = () => {
@@ -19,6 +19,7 @@ const App = () => {
         <Route path='/Contact' element={<Contact/>} />
         <Route path='/Signin' element={<Signin/>} />
         <Route path='/Signup' element={<Signup/>} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
       </Routes>
       </BrowserRouter>
     </>
