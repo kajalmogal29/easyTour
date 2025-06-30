@@ -10,13 +10,13 @@
 }
 
 .social-links a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 2rem;
 }
 
 .social-links a:hover{
-    color: blue;
+    color: black;
     transition: 0.3s ease-in-out;
 }
 

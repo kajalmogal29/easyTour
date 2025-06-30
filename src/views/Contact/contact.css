@@ -1,16 +1,19 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.contact-main-container{
+
+.contact-main-container {
   height: 100vh;
   width: 100vw;
-   background-color: rgba(180, 176, 176, 0.845);
-   position: relative;
-
+  background-color: rgba(180, 176, 176, 0.845);
+  margin-top: 10%;
+  
 }
-.contact-header{
+
+.contact-header {
   height: 12vh;
   width: 100vw;
   text-align: center;
@@ -18,18 +21,17 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  position:relative;
- 
-} 
+  margin-top: ;
+  
+}
 
-.heading{
+.heading {
   font-size: 2rem;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   color: #195e8c;
 }
 
-.contact-content
-{
+.contact-content {
   height: 85vh;
   width: 100vw;
   display: flex;
@@ -40,7 +42,7 @@
   margin: 20px 0;
 }
 
-.enquiry-form{
+.enquiry-form {
   height: 80vh;
   width: 35vw;
   background-color: #195e8c;
@@ -50,15 +52,15 @@
   justify-content: center;
   border-radius: 10px;
   box-shadow: 4px 4px 4px gray;
-  text-align: center; 
+  text-align: center;
 }
 
- .contact-info{
+.contact-info {
   height: 80vh;
-  width: 35vw; 
-} 
+  width: 35vw;
+}
 
-.contact-information{
+.contact-information {
   height: 80vh;
   width: 35vw;
   background-color: #195e8c;
@@ -68,17 +70,17 @@
   border-radius: 10px;
   box-shadow: 4px 4px 4px gray;
   font-size: 18px;
-  gap:12px;
+  gap: 12px;
   color: white;
 }
 
-.contact-information h2{
+.contact-information h2 {
   font-size: 1.5rem;
   margin-top: 70px;
   align-items: center;
   justify-content: center;
-  text-align: center; 
-} 
+  text-align: center;
+}
 
 form .user-input {
   margin: 15px;
@@ -91,65 +93,27 @@ form .user-input {
   color: black;
 }
 
-form button{
+form button {
   margin: 15px;
   font-size: 15px;
   height: 40px;
   width: 300px;
-  background-color: gray;
+  background-color: white;
+  color: #11325c;
+  font-weight: bold;
   border: none;
   cursor: pointer;
   border-radius: 5px;
 }
 
-form #message{
+form #message {
   height: 100px;
 
 }
 
-form button:hover{
-  background-color: green ;
-} 
-
-
-@media (max-width: 768px) {
-  .contact-content {
-    flex-direction: column;
-  }
-
-  .contact-header .heading {
-    font-size: 1.5rem;
-  }
-
-  .user-input{
-    height: 25px;
-    width: 150;
-  }
-
-  button {
-    width: 100%;
-  }
+form button:hover {
+  background-color: lightgray;
 }
 
-@media (max-width: 480px) {
-  .contact-main-container {
-    padding: 1rem;
-  }
-
-  .contact-header {
-    font-size: 0.95rem;
-  }
-
-  .heading {
-    font-size: 1.25rem;
-  }
-
-  .user-input{
-    height: 25px;
-    width: 150;
-  }
-}
-
-
-
+ 
 

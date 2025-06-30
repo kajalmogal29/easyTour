@@ -1,13 +1,13 @@
 import React from 'react'
 
-//import Navbar from '../../components/Navbar/Navbar'
+import Navbar from '../../components/Navbar/Navbar'
 import './contact.css'
 import Sociallinks from '../../components/Sociallinks/Sociallinks.jsx'
 
 const Contact = () => {
   return (
     <>
-      {/* <Navbar /> */}
+      { <Navbar /> }
       <div className="contact-main-container">
         <div className="contact-header">
             <p> <b className="heading">Get in Touch With Us </b><br></br>
