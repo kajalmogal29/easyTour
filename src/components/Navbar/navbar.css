@@ -44,6 +44,7 @@
     background-color: #195e8c;
     flex-direction: column;
     align-items: center;
+    height: 250PX;
   }
   
   .navbar-links {
